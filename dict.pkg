@@ -1,0 +1,5 @@
+v 3
+d dict
+d 一个翻译英语单词的命令～
+f dict.ado
+f dict.sthlp
