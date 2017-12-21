@@ -59,9 +59,10 @@ forval i = 1/`b'{
 }
 keep v v2 v3
 split v3 if v3[_n+1] == "4", parse($p)
+local j = 2
 forval i = 4/`c'{
-	local j = `i' - `b'
 	replace v3 = v3`j'[3] if v3 == "`i'"
+	local j = `i' + 1
 }
 replace v3 = "" if v2 == "【释义】" 
 keep v2 v3
