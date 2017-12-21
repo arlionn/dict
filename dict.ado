@@ -1,7 +1,7 @@
 *! 0.0.0.9000 程振兴 2017年12月21日
-prog drop _all
-prog define dict
-	version 12
+capture program drop dict
+program define dict
+	version 14.0
 	syntax anything(name = content), [NOsplit Cite]
 	clear all 
 	qui set more off, permanently
