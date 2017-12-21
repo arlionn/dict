@@ -1,4 +1,5 @@
-*! 0.0.0.9000 程振兴 2017年12月21日
+*! 0.0.0.1 程振兴 2017年12月21日
+*! 2017年22日修复了无法分离出网络释义的问题
 capture program drop dict
 program define dict
 	version 12.0
@@ -70,6 +71,15 @@ program define dict
 			format b %-50s
 			compress
 			cap erase temp.txt 
+			if index(b[_N], "网络释义"){
+				split b if index(b[_N], "网络释义"), parse(网络释义：)
+			}
+			local obs = `c' + 1
+			set obs `obs'
+			replace a = "net." if a == ""
+			replace b = b2[_n-1] if b == ""
+			replace b = b1 if index(b, "网络释义")
+			keep a b
 			replace b = "`word'" if a == "【单词】"
 		}
 		forval i = 1/`=_N'{
@@ -93,3 +103,7 @@ program define dict
 		}
 	}
 end
+
+
+
+
