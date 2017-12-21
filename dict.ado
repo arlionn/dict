@@ -1,4 +1,4 @@
-*! 0.0.0.1 程振兴 2017年12月21日
+*! 0.0.1 程振兴 2017年12月21日
 *! 2017年12月22日修复了无法分离出网络释义的问题
 capture program drop dict
 program define dict
