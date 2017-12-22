@@ -98,9 +98,9 @@ program define dict
 		if "`nosplit'" == ""{
 			di as yellow "----------------------------------------------------------"
 		}
-		if "`cite'" != ""{
-			di as yellow "程振兴. dict: 使用Stata翻译英语单词到中文. version: 0.0.0.9000. 2017.12.21"
-		}
+	}
+	if "`cite'" != ""{
+		di as yellow "程振兴. dict: 使用Stata翻译英语单词到中文. version: 0.0.1. 2017.12.21"
 	}
 end
 
