@@ -1,5 +1,12 @@
 v 3
 d dict
-d 一个翻译英语单词的命令～
-f dict.ado
-f dict.sthlp
+d 一个中英互译的命令～
+d version (release) as well as their dependencies from 
+d {browse "http://www.github.com/czxa/dict":GitHub} website
+d
+d Distribution-Date: 20171225
+d
+F dict.ado
+F dict.sthlp
+F percentencode.ado
+F percentencode.sthlp

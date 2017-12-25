@@ -1,10 +1,11 @@
-# 在Stata中查单词——dict命令
+# 在Stata中进行中英文单词词语互译——dict命令
 
-### 在Stata中直接查单词。
+### 在Stata中进行中英文单词词语互译。
 
 ### 示例图片：
 
 ![](https://github.com/czxa/dict/raw/master/example.png)
+![](https://github.com/czxa/dict/raw/master/example1.png)
 
 ### 安装：
 
@@ -32,7 +33,7 @@ sysdir
 
 > dict words, [nosplit, cite]
 
-* words: 是一列需要查询的英语单词。
+* words: 是一列需要查询的英语单词或中文词语。
 
 ##### 选项
 
@@ -48,4 +49,7 @@ dict evidence
 dict food water
 dict food water, no
 dict food water, no c
+dict 您好
+dict 再见
+dict 证据 国际 政策, no
 ```
