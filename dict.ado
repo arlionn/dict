@@ -73,6 +73,7 @@ program define dict
 				keep v2 v3
 				rename v2 a
 				rename v3 b
+				replace b = subinstr(b, "2", "", .)
 				format b %-50s
 				compress
 				cap erase temp.txt
