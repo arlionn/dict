@@ -1,5 +1,5 @@
 v 1.0.0
-d 'DICT': 一个翻译英语单词的Stata命令～
+d 'DICT': 一个在Stata中进行中英文互译的命令
 d version (release) as well as their dependencies from 
 d {browse "http://www.github.com/czx/dict":GitHub} website
 p dict

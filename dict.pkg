@@ -1,6 +1,5 @@
-v 3
-d dict
-d 一个中英互译的命令～
+v 1.0.0
+d 'dict': 一个中英互译的命令
 d version (release) as well as their dependencies from 
 d {browse "http://www.github.com/czxa/dict":GitHub} website
 d
