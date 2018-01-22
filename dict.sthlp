@@ -16,11 +16,11 @@
 {title:语法}
 
 {p 8 18 2}
-{cmdab:dict} {cmd: words} {cmd:,} [{cmd:{opt no:split}} {cmd:{opt s:entence}} {cmd:{opt c:ite}}]
+{cmdab:dict} {cmd: contents} {cmd:,} [{cmd:{opt no:split}} {cmd:{opt s:entence}} {cmd:{opt c:ite}}]
 
 {pstd}{cmd: 描述:}{p_end}
 
-{pstd}{space 3}{cmd: words}: 是一列需要翻译的内容，包括单词、词语、句子，其中多个单词和词语需要使用空格分开，句子使用双引号括起来，每次只能翻译一个句子。{p_end}
+{pstd}{space 3}{cmd: contents}: 是一列需要翻译的内容，包括单词、词语、句子，其中多个单词和词语需要使用空格分开，句子使用双引号括起来，每次只能翻译一个句子。{p_end}
 
 
 {marker options}{...}
