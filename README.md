@@ -5,17 +5,26 @@
 安装：
 --------
 
-#### 首先你需要安装github命令，这个命令是用来安装github上的命令的：
-```js
+#### 安装方法一：
+
+```py
+net install dict, from("https://www.czxa.top/dict")
+```
+
+#### 安装方法二：
+* 首先你需要安装github命令，这个命令是用来安装github上的命令的：
+
+```py
 net install github, from("https://haghish.github.io/github/")
 ```
 
-#### 然后就可以安装这个命令了：
-```js
+* 然后就可以安装这个命令了：
+
+```py
 github install czxa/dict, replace
 ```
 <!--more-->
-#### 或者下载安装：
+#### 安装方法三：
 * 另外你也可以从这里把ado文件和sthlp文件下载下来，然后放在你的Stata系统文件夹里，查看系统文件夹的路径可以运行下面的命令：
 
 ```js
@@ -57,8 +66,9 @@ dict "学会信息和数据快速采集都是非常必要的", s
 dict "It is necessary to learn information and data collection quickly.", s
 ```
 
-### 示例图片：
+示例图片：
+--------
 
-![](https://github.com/czxa/dict/raw/master/example.png)
-![](https://github.com/czxa/dict/raw/master/example1.png)
-![](https://github.com/czxa/dict/raw/master/example2.png)
+[__`英语单词查询`__](https://github.com/czxa/dict/raw/master/example.png)
+[__`汉语词语查询`__](https://github.com/czxa/dict/raw/master/example1.png)
+[__`英汉句子互译`__](https://github.com/czxa/dict/raw/master/example2.png)
