@@ -1,4 +1,4 @@
-在Stata中进行中英文单词、词语、句子互译——dict命令<img src="https://github.com/czxa/Web_data_Source/raw/master/elearning.png" align="right" />
+在Stata中进行中英文单词、词语、句子互译——dict命令<img src="https://github.com/czxa/Web_data_Source/raw/master/e_learning.png" align="right" />
 ========================================================
 [![Travis](https://img.shields.io/travis/rust-lang/rust.svg?style=plastic)](http:www.czxa.top) [![](https://img.shields.io/badge/Stata-dict-brightgreen.svg?style=plastic)](http://www.czxa.top) [![](https://img.shields.io/badge/github-Stata-orange.svg?style=plastic)](http://www.czxa.top) [![](https://img.shields.io/badge/platform-Windows_os|Mac_os-orange.svg?style=plastic)](http://www.czxa.top) [![](https://img.shields.io/badge/Fork-30-orange.svg?style=social)](http://www.czxa.top)
 
