@@ -222,8 +222,7 @@ program define dict
 	if "`cite'" != ""{
 		di as yellow "程振兴. dict: 使用Stata进行中英文转换. version: 2.0.0. 2017.12.21"
 	}
+	cap erase temp.txt
 end
-
-
 
 
